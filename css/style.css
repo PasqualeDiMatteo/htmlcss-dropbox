@@ -167,6 +167,15 @@ nav a{
     .billing-body{ 
         padding: 30px;
     }
+
+    .price{
+        font-weight: 900;
+    }
+
+    .price-recurrence{
+        color: #666;
+    }
+
     .billing-ul{ 
         margin-left: 30px;
     }
