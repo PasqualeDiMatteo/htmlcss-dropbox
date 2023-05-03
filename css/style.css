@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Generic */
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+header{
+    background-color: red;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-left {
+    background-color: aqua;
+    width: 500px;
+    height: 30px;
+}
+
+.nav-right {
+    background-color: aqua;
+    width: 500px;
+    height: 30px;
+}
+
+/* Utilities */
+
+.grid-blue{
+    background-color: blue;
+}
+
