@@ -54,12 +54,23 @@ a{
 
 .btn{
     padding: 15px 20px;
+    position: relative;
 }
 
 .btn-main{
     background-color:#0061ff ;
     color: white;
 
+}
+
+.btn:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .btn-secondary{
@@ -84,6 +95,7 @@ header{
     left: 0;
     z-index: 1;
     background-color: white;
+    line-height: 80px;
 }
 
 .nav-left {
@@ -106,6 +118,10 @@ nav a{
 .nav-right {
     width: 500px;
     justify-content: flex-end;
+}
+
+header li:hover {
+    border-bottom: 1px solid blue;
 }
 
 /* Jumbo */
@@ -316,6 +332,10 @@ nav a{
         filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(98%) contrast(106%);
     }
 
+    .team:hover{
+        border: 15px solid rgba(0, 0, 0, 0.7);
+    }
+
     .grid-blue .flex-right a{
         border: 0;
     }
@@ -333,6 +353,28 @@ nav a{
 
     .question{
         justify-content: space-between;
+    }
+
+    .answers{
+        display: none;
+    }
+
+    .requests-row:hover .answers{
+        display: block;
+        padding: 40px;
+    }
+
+    .requests-row:hover .fa-angle-down{
+        display: none;
+    }
+
+    .requests-row:hover .question::after{
+        content: "\f106";
+        font: var(--fa-font-solid);
+    }
+
+    .requests-row .answer{
+        display: block;
     }
 
     /* Footer */
