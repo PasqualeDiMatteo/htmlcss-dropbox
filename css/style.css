@@ -19,13 +19,10 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     min-height: 100px;
-    
 }
 
 .full-container{
-    max-width: 100%;
-    background-color: blueviolet;
-    min-height: 400px;
+    background-color: #f5f5f5;
 }
 
 h1{
@@ -64,6 +61,7 @@ a{
     background-color:white ;
     color: black;
     border: 1px solid black;
+    display: inline-block;
 
 }
 
@@ -210,10 +208,6 @@ nav a{
         text-align: center;
     }
 
-    .billing-body p a{
-        text-decoration: underline;
-    }
-
     .billing-body p{
         line-height: 60px;
     }
@@ -271,26 +265,57 @@ nav a{
     }
 
     .column{
-        flex-basis: 400px;
-        background-color: blue;
-        min-height: 300px;
-        border: 1px solid black;
+        flex-basis: 380px ;
+        margin-right: 20px;
+    }
+
+    .clients{
+        text-decoration: underline;
     }
 
 /* Partner */
 
     .partner{
         flex-basis: calc(100% / 3);
-        border: 1px solid black;
         flex-wrap: wrap;
     }
 
     .team{
         flex: 0 0 50%;
-        height: 200px;
-        border: 1px solid black;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
     }
 
+    .partner-center{
+        padding: 50px;
+    }
+
+    .partner-center img{
+        width: 300px;
+    }
+
+    .partner-center hr{
+        width: 25%;
+        border: 1px solid lightgray;
+    }
+
+    .partner-center p{
+        line-height: 25px;
+    }
+
+    .team img{
+        width: 200px;
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(98%) contrast(106%);
+    }
+
+    .grid-blue .flex-right a{
+        border: 0;
+    }
+
+    .grid-blue .small-container{
+        width: 100%;
+    }
     /* Footer */
     footer{
         background-color: black;
@@ -320,7 +345,7 @@ nav a{
 .grid-blue{
     background: linear-gradient(#b4d0e7 90%, #FFF 10%);
     min-height: 300px;
-    padding-top: 100px;
+    align-items: center;
 }
 
 .grid-white{
@@ -347,4 +372,40 @@ nav a{
 
 .flex-right{
     flex-basis: 30%;
+}
+
+.td-und{
+    text-decoration: underline;
+}
+
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-purple{
+    background-color: #61082b;
+}
+
+.bg-sky-blue{
+    background-color: #0093ce;
+}
+
+.bg-red{
+    background-color: #ff1c1c;
+}
+
+.bg-light-blue{
+    background-color: #b4d0e7;
+}
+
+.bg-blue{
+    background-color: #0d2481;
+}
+
+.bg-yellow{
+    background-color:#ffd830 ;
+}
+
+.tx-r{
+    text-align: right;
 }
