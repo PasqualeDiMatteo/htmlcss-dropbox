@@ -195,7 +195,7 @@ header li:hover {
     }
 
     .billing-body{ 
-        padding: 50px;
+        padding: 60px;
     }
 
     .price{
@@ -234,8 +234,6 @@ header li:hover {
 
     .billing-body hr{
         width: 25%;
-        margin-bottom: 50px;
-
     }
 
     .billing-custom{
