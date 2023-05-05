@@ -292,16 +292,17 @@ header li:hover {
         text-decoration: underline;
     }
 
-/* Partner */
+/* Sponsor */
 
-    .partner{
-        flex-basis: calc(100% / 3);
+    .sponsor{
+        width: calc(100vw / 3);
+        height: calc(100vw / 3);
         flex-wrap: wrap;
     }
 
     .team{
-        flex: 0 0 50%;
-        height: 300px;
+        width:50%;
+        height: 50%;
         justify-content: center;
         align-items: center;
     }
