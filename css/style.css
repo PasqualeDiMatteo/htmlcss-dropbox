@@ -206,21 +206,9 @@ header li:hover {
         color: #666;
     }
 
-    .billing-ul{ 
-        margin-left: 20px;
-    }
-     .billing-ul li{
-        position: relative;
-     }
-
-     .billing-ul li i{
-        position: absolute;
-        left: -20px;
-     }
-
-     .fa-check{
+    .fa-check{
         color: blue;
-     }
+    }
 
     .billing-body .btn{ 
         width: 100%;
@@ -228,12 +216,16 @@ header li:hover {
         text-align: center;
     }
 
-    .billing-body p{
-        line-height: 60px;
+    .billing-body>p{
+        margin: 30px 0;
     }
 
     .billing-body hr{
         width: 25%;
+    }
+
+    .billing-ul li{
+        gap: 10px;
     }
 
     .billing-custom{
