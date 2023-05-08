@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg-green: #a2d39b;
+    --bg-purple: #61082b;
+    --bg-sky-blue:#0093ce;
+    --bg-light-blue: #b4d0e7;
+    --bg-red:#ff1c1c;
+    --bg-blue: #0d2481;
+    --bg-yellow:#ffd830 ;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     padding-top: 80px;
@@ -410,29 +420,28 @@ header li:hover {
 }
 
 .bg-green{
-    background-color: #a2d39b;
+    background-color:var(--bg-green);
 }
 
 .bg-purple{
-    background-color: #61082b;
+    background-color:var(--bg-purple);
 }
 
 .bg-sky-blue{
-    background-color: #0093ce;
+    background-color:var(--bg-sky-blue);
 }
 
 .bg-red{
-    background-color: #ff1c1c;
+    background-color:var(--bg-red);
 }
 
 .bg-light-blue{
-    background-color: #b4d0e7;
+    background-color:var(--bg-light-blue);
 }
 
 .bg-blue{
-    background-color: #0d2481;
+    background-color: var(--bg-blue);
 }
-
 .bg-yellow{
-    background-color:#ffd830 ;
+    background-color:var(--bg-yellow);
 }
