@@ -240,12 +240,6 @@ header li:hover {
 
     .card-large{
         flex-basis: 60%;
-        text-align: right;
-        
-    }
-
-    .card-large img{
-        text-align: right;
     }
 
     .card-small{
@@ -253,26 +247,16 @@ header li:hover {
         padding: 50px;
     }
 
-    .card-small p{
-        line-height: 25px;
-    }
-
-
 /* Multitasking */
 
     .row{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
         justify-content: space-between;
     }
 
     .column{
         flex-basis: calc(100% / 3 - 20px);
-    }
-
-    .clients{
-        text-decoration: underline;
     }
 
 /* Sponsor */
@@ -290,15 +274,15 @@ header li:hover {
         align-items: center;
     }
 
-    .partner-center{
+    .sponsor-center{
         padding: 50px;
     }
 
-    .partner-center img{
+    .sponsor-center img{
         width: 300px;
     }
 
-    .partner-center hr{
+    .sponsor-center hr{
         width: 25%;
         border: 1px solid lightgray;
     }
